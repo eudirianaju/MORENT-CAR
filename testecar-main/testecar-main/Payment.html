@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Payment.css">
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+
+    <header>
+        <div class="logo">
+            <a href="/testecar-main/HomeCar.html">
+                <img src="img/logo.jpg" alt="Logo"></a>
+        </div>
+
+        
+
+        <div class="icons">
+
+            <div class="icon-container1">
+                <img src="img/VectorNAV.png" alt="usu" width="35px">
+            </div>
+
+            <div class="icon-container2">
+                <img src="img/notificationNAV.png" alt="usu" width="35px">
+            </div>
+            <div class="icon-container3">
+                <img src="img/configNAV.jpg" alt="usu" width="35px">
+            </div>
+
+            <div class="icon-container4">
+                <img src="img/Image.png" alt="usu" width="35px">
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+
+        <div class="leftcontainer">
+
+            <div class="container1">
+                <h1>Biling Info</h1>
+
+                <div class="subtitle">
+                    <p>Please enter your billing info</p>
+                    <p>Step 1 of 4</p>
+                </div>
+
+                <div class="info1">
+
+                    <div class="camp">
+                        <h2>Name</h2>
+                        <input type="text" id="name" name="name" placeholder="Your name"><br>
+                    </div>
+
+
+                    <div class="camp" id="phone">
+                        <h2>Phone Number</h2>
+                        <input type="text" id="Phone" name="Phone number" placeholder="Phone number"><br>
+                    </div>
+
+                </div>
+
+
+                <div class="info1">
+
+                    <div class="camp">
+                        <h2>Address</h2>
+                        <input type="text" id="Address" name="Address" placeholder="Address"><br>
+                    </div>
+
+
+                    <div class="camp" id="town">
+                        <h2>Town / City</h2>
+                        <input type="text" id="Town or city" name="Town or city" placeholder="Town or city"><br>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="container2">
+                <h1>Rental Info</h1>
+
+                <div class="subtitle">
+                    <p>Please select your rental date</p>
+                    <p>Step 2 of 4</p>
+                </div>
+
+                <input type="checkbox" id="drop-off-checkbox">
+                <label for="drop-off-checkbox"><span>Pick - up</span></label>
+                <div class="info1">
+
+                    <div class="camp">
+                        <h2>Locations</h2>
+                        <input type="text" id="Locations" name="Locations" placeholder="Select your city"><br>
+                    </div>
+
+
+                    <div class="camp" id="date">
+                        <h2>Date</h2>
+                        <input type="text" id="Date" name="Date" placeholder="Select your date"><br>
+                    </div>
+
+                </div>
+
+
+                <div class="info1">
+
+                    <div class="camp">
+                        <h2>Time</h2>
+                        <input type="text" id="time" name="Select your time" placeholder="Select your time"><br>
+
+                    </div>
+
+                </div>
+
+
+                <input type="checkbox" id="drop-off-checkbox">
+                <label for="drop-off-checkbox"><span>Drop - Off</span></label>
+
+                <div class="info1">
+
+                    <div class="camp">
+                        <h2>Locations</h2>
+                        <input type="text" id="Locations" name="Locations" placeholder="Select your city"><br>
+                    </div>
+
+
+                    <div class="camp" id="date">
+                        <h2>Date</h2>
+                        <input type="text" id="Date" name="Date" placeholder="Select your date"><br>
+                    </div>
+
+                </div>
+
+
+                <div class="info1">
+
+                    <div class="camp">
+                        <h2>Time</h2>
+                        <input type="text" id="time" name="Select your time" placeholder="Select your time"><br>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+            <div class="container3">
+
+                <h1>Payment Method</h1>
+
+                <div class="subtitle">
+                    <p>Please enter your payment method</p>
+                    <p>Step 3 of 4</p>
+                </div>
+
+
+                <div class="method">
+
+                    <div class="bank1">
+                        <input type="checkbox" id="credit">
+                        <label for="credit"><span>Credit Card</span></label>
+
+                        <img src="img/Visa.png" alt="">
+
+                    </div>
+
+
+
+                    <div class="info1">
+
+                        <div class="camp">
+                            <h2>Card Number</h2>
+                            <input type="text" id="Card Number" name="Card Number" placeholder="Card number"><br>
+                        </div>
+
+
+                        <div class="camp" id="date">
+                            <h2>Expration Date</h2>
+                            <input type="text" id="Expration Date" name="Expration Date" placeholder="DD / MM / YY"><br>
+                        </div>
+
+                    </div>
+
+                    <div class="info1">
+
+                        <div class="camp">
+                            <h2>Card Holder</h2>
+                            <input type="text" id="Card Holder" name="Card Holder" placeholder="Card Holder"><br>
+                        </div>
+
+
+                        <div class="camp" id="cvc">
+                            <h2>CVC</h2>
+                            <input type="text" id="CVC" name="CVC" placeholder="CVC"><br>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="bank2">
+                    <input type="checkbox" id="paypal">
+                    <label for="paypal"><span>PayPal</span></label>
+                    <img src="img/PayPal.png" alt="">
+
+                </div>
+
+                <div class="bank3">
+                    <input type="checkbox" id="bitcoin">
+                    <label for="bitcoin"><span>Bitcoin</span></label>
+                    <img src="img/Bitcoin.png" alt="">
+                </div>
+            </div>
+
+
+
+            <div class="container4">
+                <h1>Confirmation</h1>
+
+                <div class="subtitle">
+                    <p id="p1">We are getting to the end. Just few clicks and your rental is ready!</p>
+                    <p>Step 4 of 4</p>
+                </div>
+
+                <div class="Confirmation">
+                    <input type="checkbox" id="Confirmation">
+                    <label for="Confirmation"><span id="conf1">I agree with sending an Marketing and newsletter emails. No spam,
+                            promissed!</span></label>
+                </div>
+
+                <div class="Confirmation">
+                    <input type="checkbox" id="Confirmation">
+                    <label for="Confirmation"><span id="conf2">I agree with our terms and conditions and privacy
+                            policy.</span></label>
+                </div>
+
+                <div>
+                    <button id="rent"> <a href=""> Rent Now</a></button>
+                </div>
+
+                <img src="img/ic-security-safety.png" alt="">
+
+                <h2>All your data are safe</h2>
+                <p>We are using the most advanced security to provide you the best experience ever.</p>
+
+
+            </div>
+
+        </div>
+
+        <div class="rightcontainer">
+            <div class="rentalsummary">
+                <h1>Rental Summary</h1>
+                <p id="p-rental">Prices may change depending on the length of the rental and the<br>
+                    price of your rental car.</p>
+
+
+                <div class="info-car">
+
+                    <div class="img-car">
+                        <img src="img/d1.png" alt="">
+                    </div>
+
+                    <div class="details">
+                        <h3>Nissan GT - R</h3>
+
+                        <div class="star">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star.png" alt="">
+                            <img src="img/star2.png" alt="">
+                            <span id="span2">440+ Reviewer</span>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+                <hr>
+
+                <div class="total">
+
+                    <div class="line1">
+                        <h4>Subtotal</h4>
+                        <h5>$80.00</h5>
+                    </div>
+
+                    <div class="line1">
+                        <h4>Tax</h4>
+                        <h5>$0</h5>
+                    </div>
+
+                    <div class="cupom">
+                        <h4>Apply promo code</h4>
+                        <h5>Apply now</h5>
+                    </div>
+
+                    <div class="price">
+
+                        <div class="left-price">
+                            <h1>Total Rental Price</h1>
+                            <p id="rental">Overall price and includes rental discount</p>
+                        </div>
+
+
+                        <div class="number">
+                            <h3>$80.00</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <footer>
+
+        <div class="high">
+            <div class="left">
+                <img src="img/logo.jpg" alt="">
+                <p id="pfooter">
+                    Our vision is to provide convenience<br>
+                    and help increase your sales business.
+                </p>
+            </div>
+
+
+            <div class="right">
+
+                <div class="About">
+                    <h1 id="h1f">About</h1>
+                    <p id="pfooter">How it works</p>
+                    <p id="pfooter">Featured</p>
+                    <p id="pfooter">Partnership</p>
+                    <p id="pfooter">Bussiness Relation</p>
+
+
+
+                </div>
+
+                <div class="Community">
+                    <h1 id="h1f">Community</h1>
+                    <p id="pfooter">Events</p>
+                    <p id="pfooter">Blog</p>
+                    <p id="pfooter">Podcast</p>
+                    <p id="pfooter">Invite a friend</p>
+
+                </div>
+
+
+                <div class="Socials">
+                    <h1 id="h1f">Socials</h1>
+                    <p id="pfooter">Discord</p>
+                    <p id="pfooter">Instagram</p>
+                    <p id="pfooter">Twitter</p>
+                    <p id="pfooter">Facebook</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="low">
+            <h1 id="h1l">©2022 MORENT. All rights reserved</h1>
+
+            <div class="low2">
+                <h1 id="h1l">Privacy & Policy</h1>
+                <h1 id="h1l">Terms & Condition</h1>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
